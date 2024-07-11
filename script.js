@@ -120,3 +120,146 @@
 
 // }
 // например свич кейс применяется при входе юзера на сайт через свитч определяем кто он - админ, пользователь или еще ктото
+
+// Циклы
+
+// for (let i = 0; i <10; i++) {
+//     console.log(i);
+//     if (i === 2 ){
+//         continue;
+//     }
+//     console.log(i);
+//     if (i === 5){
+//         break;
+//     }
+    
+// }
+
+
+
+// let x = 0;
+// while (x < 10) {
+//     console.log(x);
+//     x++;
+// }
+
+//  Функции
+
+// function sayHello() {
+//     console.log('/ПриветМир!!');
+//     console.log('/Привет<hjlzuf!!');
+// }
+// sayHello();
+
+// for (let index = 0; index < 10; index++) {
+//     sayHello();
+    
+// }
+
+// function compareValues(a,b){
+//     if (a > b){
+//         console.log('a > b')
+//     } else {
+//         console.log('a < b')
+//     }
+
+// }
+
+// compareValues (10, 20);
+// compareValues (10, 230);
+// compareValues (1000, 20);
+
+
+// function sum(a,b) {
+//     let funcValue = 'выведи меня из себя!';
+//     // тут сработает - она в зоне видимости внутри функции
+//     console.log(funcValue);
+//     return a + b;
+    
+// }
+
+// console.log(funcValue); тут не сработает - она вне зоны выдимости, 
+// console.log(sum(10, 10));
+
+
+// 2 способ вызова функции 
+
+// const sum = function(a, b) {
+//     return a + b;
+// }
+
+// console.log(sum (10, 10));
+
+// 3 способ  стрелочные функции
+
+// const sum = (a, b) => a + b;
+
+// console.log (sum(10, 15));
+
+
+
+
+
+
+
+//    Анонимная функция она выполняется 1 раз, нужно когда вначале загрузки страницы нужно что то подгрузить.
+
+
+// фигурные скобки - область видимости
+
+// выведите числа от 1 до 10, можно меньше 11 поставить или меньше или равно 10
+// for (let i = 1; i <= 10; i++) {
+//     console.log(i);
+  
+// }
+// выведите числа четные от 1 до 20   конструкция += равносильна  i+2
+// for (let i = 2; i <= 20; i += 2) {
+    
+
+//     console.log(i);
+
+// }
+
+// числа от 10 до 1 в обратном порядке
+
+// for (let x = 10; x >= 1; x--){
+//     console.log(x);
+// }
+
+// найти сумму чисел от 1 до 100
+
+// sum = 0
+// for (let i = 1; 1 <= 100; i++) {
+//      sum += i;
+ 
+// }
+
+// console.log(sum);
+
+
+// Таблица умножения дл числа которое вводит пользователь
+
+// let value = +prompt('Введите число!');
+
+// for (let i = 1; i <= 10; i++){
+//     console.log(value*i);
+// }
+
+
+// Числа от одного до ста которые являются Фиббоначи
+
+// let a = 0;
+// let b = 1;
+// console.log(a);
+// console.log(b);
+
+// while (true) {
+//     let ab = a + b;
+//     if (ab > 100) {
+//         break;
+//     }
+//     console.log(ab);
+//     a = b;
+//     b = ab;
+// }
+
