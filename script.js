@@ -263,3 +263,178 @@
 //     b = ab;
 // }
 
+
+// 1 задача
+// const square = function(width, lenght) {
+//     return lenght * width;
+// }
+
+// console.log (square (5,7));
+
+// const perimeter = function(width, lenght) {
+//     return (lenght + width) * 2;
+// }
+// console.log (perimeter (5,7));
+
+
+// Задача 2 квадратное уравнение
+
+// function solveQuadratic(a, b, c) {
+//     let discriminant = b * b - 4 * a * c;
+//     if (discriminant < 0) {
+//         return 'Уравнение не имеет  корней';
+//     } else if (discriminant === 0) {
+//         return 'Уравнение имеет один корень: ' + (-b / (2 * a));
+//     } else {
+//         let root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+//         let root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+//         return 'Уравнение имеет два корня: ' + root1 + ' и ' + root2;
+//     }
+// }
+// console.log()
+
+
+// // 3 задача НОД
+
+// const nod = function(a, b) {
+//     if (b === 0){
+//         return a;
+//     }
+//     return nod (b, a % b);
+// }
+
+// console.log (nod (144,300));
+
+
+
+// Задача 4 Факториал числа
+
+// function factorial(n) {
+//     if (n === 0){
+//         return 1;
+//     } else {
+//         return n * factorial(n - 1);
+//     }
+   
+//   }
+  
+//   console.log( factorial(8) ); 
+
+
+// Задача 5 Число четное или нечетное
+
+// function chetkoe (num){
+//         a = 'четкое'
+//         b = 'нечеткое'
+//         if (num % 2 === 0 ) {
+//           return a } else {
+//             return b
+//           }
+//       }
+// console.log (chetkoe (1022));
+
+
+
+// задача 6 Определение наибольшего из чисел
+
+
+// function compareValues(a,b){
+//     if (a > b){
+//         console.log(a)
+//     } else {
+//         console.log(b)
+//     }
+
+// }
+// compareValues (1011, 230);
+
+
+// задача 7 введите число и определите является ли оно положительным отрицательным или нулем
+
+
+
+// function num(x){
+//     if (x > 0){
+//         console.log('число положительное')
+//     } else if (x <0){
+//         console.log('число отрицательное')
+//     } else {
+//         console.log('это ноль')
+// }
+
+// }
+
+// console.log (num(-10))
+
+
+// Задача 8 Введите балл и выведите оценку
+// A (Excellent)	90-99%
+// B (Good)	80-90%
+// C (Satisfactory)	70-80%
+// D (Bad)	60-70%
+// F (Unsatisfactory)	0-59%
+
+// 
+// function grade(n) {
+//     switch (true) {
+//         case ( n <= 100 && n >= 90):
+//                 grade = "A";
+//             break;
+//         case ( n <= 89 && n >= 80):
+//                 grade = "B";
+//             break;
+//         case ( n <= 79 && n >= 70):
+//                 grade = "C";
+//             break;
+//         case ( n <= 69 && n >= 60):
+//                 grade = "D";
+//             break;
+//         case ( n <= 59 && n >= 0):
+//                 grade = "F";
+//             break;            
+    
+//         default:
+//             break;
+//     }
+//     return grade;
+
+// }
+
+// console.log (grade (n=70));
+
+// Задача 9 конвертация 24 часового формата в 12 часовой
+
+
+// function format12Hour(datetime) {
+//     let hours = datetime.getHours();
+//     let minutes = datetime.getMinutes();
+//     let ampm = hours >= 12 ? 'PM' : 'AM';
+//     hours = hours % 12 || 12;
+//     minutes = minutes < 10 ? '0' + minutes : minutes;
+//     let strTime = hours + ':' + minutes + ' ' + ampm;
+//     return strTime;
+//   }
+// console.log (format12Hour (new Date));
+
+
+// Задача 10 цельсии в фаренгейты
+
+// function convert (deg) {
+//     return ((deg * 9 / 5) + 32);
+// }
+// console.log (convert (11))
+
+
+
+// задача 11
+
+// const del = function(a, b) {
+//     if (b == 0){
+//         alert ('это ноль тышо!!!')
+//     } else {
+//         return a / b;
+//     }
+    
+    
+// }
+// console.log (del (10,5));
